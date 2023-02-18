@@ -1,0 +1,455 @@
+body{
+    margin:0;
+}
+
+.nav{
+    margin-top: -12px;
+    background-color: black;
+    width:100%;
+    height: 70px;
+}
+.logo{
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    font-size: 30px;
+    
+    
+}
+.navmenu{
+    font-size: 15px;
+    padding-top: 2px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 50px;
+   
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.navmenu ul {
+    list-style-type: none;
+}
+
+.navmenu ul li{
+   
+    display:inline;
+    padding-left: 30px;
+}
+
+
+.navmenu a.split{
+    float:right;
+    color:white;
+    padding-right: 40px;
+    padding-top: 8px;
+
+}
+.navmenu ul {
+    padding-right: 100px;
+}
+#b{
+    text-align: center;
+    padding-inline: 6px;
+    display:inline-block;
+    background-color:white;
+    color:black;
+    font-size: 15px;
+    border-radius: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+.but{
+    background-color: black;
+    color:white;
+    border-radius: 19px;
+    padding: 10px;
+}
+.but:hover{
+    background-color:rgba(51, 51,51, 50) ;
+}
+.heading{
+    width:50%;
+    height: 0px;
+    padding-left: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+.splitimg{
+    width:50%;
+    float: right;
+    padding-right: 2px;
+    
+}
+.splitimg img{
+    width:490px;
+    margin-top: -32px;
+}
+
+.sup{
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    padding-inline: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    font-weight:bold;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sup:hover{
+    background-color:rgba(51, 51,51, 50) ;
+}
+.why{
+    padding-top: 650px;
+    padding-left: 180px;
+    font-size: 37px;
+    font-weight: bolder;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sofa img{
+    width:1200px;
+    padding-left: 150px;
+}
+.flex-container{
+    padding-left: 150px;
+    padding-right:150px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.clock{
+    padding-top: 40px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+.how{
+    padding-top: 30px;
+    padding-left: 185px;
+    text-decoration: underline;
+    text-decoration-thickness: 0px;
+    text-underline-position: under;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    
+}
+.safe{
+    padding-top: 80px;
+    padding-left: 180px;
+    font-size: 37px;
+    font-weight: bolder;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.peace{
+    padding-left: 185px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+.safety{
+    padding-top: 40px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+.safety img{
+    width:50px;
+}
+.popular {
+    width: 100%;
+    text-decoration: none;
+    padding-left: 120px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+.popular li{
+    list-style-type: none;
+    padding-left: 30px;
+}
+.popular ul li{
+
+display: inline-block;  
+}
+.flex-twin{
+    padding-left: 200px;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+.twin{
+   
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+.twin button{
+    background-color: black;
+    color: white;
+    padding-inline: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: small;
+    font-weight:lighter;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-radius: 12px;
+}
+.travel{
+    padding-top: 70px;
+    padding-left: 250px;
+    font-size: 37px;
+    font-weight: bolder;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-city{
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-right:300px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.link{
+    padding-top: 30px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+.flex-box{
+    background-color: #eaeaea;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+        padding-top: 50px;
+        padding-left: 150px;
+        padding-right:10px;
+        padding-bottom: 50px;;
+        display:flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+}
+.woman img{
+    width:350px;
+}
+.headw{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    padding-left: 250px;
+}
+.paraw{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 250px;
+}
+.textw button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 250px;
+    border-radius: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: black;
+    color: white;
+}
+.qstn{
+    padding-top: 70px;
+    padding-left: 180px;
+    font-size: 37px;
+    font-weight: bolder;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex-qstns{
+    padding-top: 50px;
+    padding-left: 170px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.qstns ul li{
+    list-style-type: none;
+    font-size: medium;
+    font-weight:500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plus ul li{
+    list-style-type: none;
+    padding-right: 300px;
+}
+.flex-uber{
+    background-color: #eaeaea;
+    margin-top: 100px;
+        padding-top: 30px;
+        padding-left: 170px;
+        padding-bottom: 50px;;
+        display:flex;
+        flex-direction: row;
+        justify-content:flex-start;
+        align-items: center;
+}
+.app{
+    
+    font-size: 37px;
+    font-weight: bolder;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boxed{
+     box-sizing: border-box;
+     background-color: white;
+     padding-top: 5px;
+}
+.left{
+    width:40%;
+}
+.download{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    align-items: center;
+    padding-top: -600px;
+}
+.arrow{
+    width:20px;
+}
+.boxed ul li{
+    list-style-type: none;
+    padding-left: 30px;
+}
+.boxed li{
+    display:inline-block;
+    align-items: center;
+}
+.sride{
+    padding-top: 30px;
+    font-size: 37px;
+    font-weight: bolder;
+    color:#0c0a0a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.supride ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 130px;
+}
+.last{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 170px;
+    padding-top: 100px;
+}
+.foot{
+    padding-top: 50px;
+    padding-left: 170px;
+    background-color:black ;
+    color:white;
+    margin-top: 130px;;
+}
+.flex-footer{
+    background-color: black;
+    margin-top: -20px;
+    color:white;
+    padding-top: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.Company{
+    padding-left:60px ;
+}
+.Globalcitizenship{
+    padding-right: 50px;
+    
+}
+.Travel{
+    padding-right: 150px;
+}
+.icon{
+    background-color: black;
+    margin-top: -16px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    
+}
+.ic ul li{
+    padding-left:50px;
+    list-style-type: none;
+    
+}
+.ic ul{
+    padding-left: 110px;
+    
+}
+.ons {
+    float: right;
+    padding-right: 280px;
+    margin-top: -57px;
+}
+.ons ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.ons ul{
+    display: inline-block;
+
+}
+
+.app img{
+    width: 130px;
+}
+.app ul li{
+    padding-left:0px;
+}
+.app ul{
+    padding-left: 170px;
+    padding-top:40px;
+}
+.c{
+    color:gray;
+}
+.c ul li{
+    list-style-type: none;
+}
+.l{
+    padding-top: 20px;
+}
+.r{
+    float: right;
+    margin-top: -55px;
+    padding-right: 190px;
+    
+}
+.r ul li{
+    padding-right: 0px;
+}
+.r a{
+    text-decoration: none;
+    color:gray;
+    
+}
+
+
+
+
+
